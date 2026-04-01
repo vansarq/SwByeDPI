@@ -1,0 +1,7 @@
+"appIntentStartByeDPIVPNTitle" = "Start ByeByeDPI";
+"appIntentStartByeDPIVPNDesc" = "Starts ByeByeDPI and initializes VPN TUNNEL session";
+"appIntentStopByeDPIVPNTitle" = "Stop ByeByeDPI";
+"appIntentStopByeDPIVPNDesc" = "Stops ByeByeDPI and VPN TUNNEL session";
+"appIntentToggleByeDPIVPNTitle" = "Toggle ByeByeDPI";
+"appIntentToggleByeDPIVPNDesc" = "Toggles ByeByeDPI and VPN TUNNEL session state";
+"appIntentToggleByeDPIVPRunngingParamTitle" = "Enable ByeByeDPI";

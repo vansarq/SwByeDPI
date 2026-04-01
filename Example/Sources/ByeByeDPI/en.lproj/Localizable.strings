@@ -1,0 +1,131 @@
+"homeVpnStateOff" = "ByeDPI - Off";
+"homeVpnStateOn" = "ByeDPI - On";
+"homeSettingsAccessHint" = "Disable ByeDPI before go to settings";
+
+"settingsGeneralSection" = "General";
+"settingsGeneralLanguageOption" = "Language";
+"settingsGeneralLanguageSystem" = "System";
+"settingsGeneralThemeOption" = "Theme";
+"settingsGeneralThemeSystem" = "System";
+"settingsGeneralThemeLight" = "Light";
+"settingsGeneralThemeDark" = "Dark";
+"settingsGeneralDNSOption" = "DNS (IP/DoT/DoH)";
+"settingsGeneralDNSResolvedOption" = "Resolved DNS servers (For DoT/DoH) - separated by commas or spaces";
+"settingsGeneralImportSettingsOption" = "Import settings";
+"settingsGeneralImportSettingsOptionDesc" = "Load config file into app (Android BBD format)";
+"settingsGeneralImportSettingsSuccess" = "Settings has been imported!";
+"settingsGeneralImportSettingsFail" = "Import settings fail";
+"settingsGeneralExportSettingsOption" = "Export settings";
+"settingsGeneralExportSettingsOptionDesc" = "Export settings to file (Android  BBD format)";
+
+"settingsByeDPISection" = "ByeDPI";
+"settingsByeDPIArgsOption" = "ByeDPI CMD args";
+"settingsByeDPIArgsFieldTitle" = "ByeDPI CMD args";
+"settingsByeDPIArgsFieldNoValuePlaceholder" = "No strategy args";
+"settingsByeDPIArgsOptionDesc" = "ByeDPI command line arguments editor";
+"settingsByeDPIStrategyTestOption" = "Strategy checker";
+"settingsByeDPIStrategyTestOptionDesc" = "ByeDPI multiple CMD args testing";
+"settingsByeDPITestAnalyzerOption" = "Strategy analyzer";
+"settingsByeDPITestAnalyzerOptionDesc" = "ByeDPI optimal strategy synthesis based on testing results";
+"settingsDomainsListOption" = "Domains list";
+"settingsDomainsListOptionDesc" = "Create, update or delete domains for testing and filtering byeDPI strategies";
+"settingsStrategiesListOption" = "Strategies list";
+"settingsStrategiesListOptionDesc" = "Create, update or delete strategies for testing and using in byeDPI";
+
+"settingsByeDPIStrategyTestDelay" = "Delay between check (secs)";
+"settingsByeDPIStrategyTestDelayDesc" = "More delay improve check stability";
+"settingsByeDPIStrategyTestDomainRequestsCount" = "Domain requests count";
+"settingsByeDPIStrategyTestDomainRequestsCountDesc" = "More requests improve accuracy, but slow down checking";
+"settingsByeDPIStrategyTestThreadsCount" = "Checker threads count";
+"settingsByeDPIStrategyTestThreadsCountDesc" = "More threads speed up check, but decrease stability";
+"settingsByeDPIStrategyTestResponseWaitTimeout" = "Response wait timeout (secs)";
+"settingsByeDPIStrategyTestResponseWaitTimeoutDesc" = "More secs slow down check, but improve stability";
+"settingsByeDPIStrategyTestDomainsStrategiesSection" = "Testing domains & strategies";
+
+"settingsItemsCountPrefix" = "Items count";
+
+"settingsDomainsCountPrefix" = "Domains count";
+
+"settingsStrategiesCountPrefix" = "Strategies count";
+"settingsByeDPIStrategyTestDomainsOptionDesc" = "Choose domains for testing";
+"settingsByeDPIStrategyTestStrategiesOptionDesc" = "Choose strategies for testing";
+"settingsByeDPIStrategyTestDomainsName" = "List name";
+"settingsByeDPIStrategyTestDomainsHint" = "One domain at line";
+"settingsByeDPIStrategyTestDomainsName" = "Strategy name";
+"settingsByeDPIStrategyTestDomainsHint" = "One cmd args set at line";
+
+"settingsByeDPIProxySection" = "ByeDPI SOCKS-proxy";
+"settingsByeDPIProxyIpAddr" = "IP address";
+"settingsByeDPIProxyPort" = "Port";
+"settingsByeDPIProxyBufSizeShort" = "Buffer size (bytes)";
+"settingsByeDPIProxyBufSize" = "Buffer size (bytes). Single recv/send call max data size";
+
+"settingsAboutSecton" = "About";
+"settingsAboutSourceCode" = "Source code";
+"settingsAboutAppVersionCode" = "App version";
+"settingsAboutByeDPIVersion" = "ByeDPI version";
+
+"byeDPICmdEditorTitle" = "ByeDPI CMD editor";
+"byeDPICmdEditorHistory" = "ByeDPI strategy history";
+"byeDPICmdEditorHistorySelectedItem" = "Selected";
+
+"byeDPITestNavTitle" = "Strategy checker";
+"byeDPITestStart" = "Start check";
+"byeDPITestStop" = "Stop";
+"byeDPITestStateNotStarted" = "Check completed";
+"byeDPITestStateInProgress" = "Checking";
+"byeDPITestDomainsDetailsShow" = "Show details";
+"byeDPITestDomainsDetailsHide" = "Hide details";
+
+"byeDPITestSettingsNavTitle" = "Check settings";
+
+"byeDPITestAnalyzerNavTitle" = "Strategy Analyzer";
+"byeDPITestAnalyzerHint" = "Tip: To better strategy determine, select as many domain lists you need to access as possible, as well as more strategies";
+"byeDPITestAnalyzerFormatHint" = "Analyzer will build the strategy (ByeDPI cmd args) taking into account the following aspects";
+"byeDPITestAnalyzerFormatInfo1" = "ByeDPI-bypass block - Second-Level Domains (SLD) 'Black list' that will not be affected by ByeDPI";
+"byeDPITestAnalyzerFormatInfo2" = "Domain-specific strategies block - SLDs 'White lists', each of which has its own optimal strategy selected";
+"byeDPITestAnalyzerFormatInfo3" = "ByeDPI 'universal' strategy block - the best strategy (according test results). It will be applied to all other domains";
+"byeDPITestAnalyzerFormatInfo4" = "When determining a strategy, each block is optional: you can set only a universal strategy, or only black and white lists, etc.";
+"byeDPITestAnalyzerUseDnsBypassSwitch" = "Use ByeDPI DNS bypass (port 53)";
+"byeDPITestAnalyzerUseDomainBypassSwitch" = "Use ByeDPI domain bypass";
+"byeDPITestAnalyzerBypassPick" = "Pick the domains";
+"byeDPITestAnalyzerUseDomainSpecificSwitch" = "Use Domain-specific strategies block";
+"byeDPITestAnalyzerUseUniversalSwitch" = "Use universal strategy";
+"byeDPITestAnalyzerRetrieve" = "Determine strategy";
+"byeDPITestAnalyzerRetrievedStrategy" = "Analysis result";
+"byeDPITestAnalyzerApply" = "Apply";
+"byeDPITestAnalyzerCopy" = "Copy";
+"byeDPITestAnalyzerNoTestResults" = "No strategy test results. Do the testing first";
+
+"domainsListNavTitle" = "Domains list";
+"domainsListCreate" = "Create new list";
+"domainsListCtorCreateNavTitle" = "Create domains list";
+"domainsListCtorEditNavTitle" = "Edit domains list";
+"domainsListCtorName" = "List name";
+"domainsListCtorItems" = "Domains";
+"domainsListCtorItemsHint" = "Each domain at new line";
+"domainsListCtorEmptyName" = "Empty list name";
+"domainsListCtorNoDomains" = "No domains provided. Enter at least one";
+"domainsListCtorListExists" = "Domain list with the same name already exists";
+
+"strategiesListNavTitle" = "Strategies list";
+"strategiesListCreate" = "Create new list";
+"strategiesListCtorCreateNavTitle" = "Create strategies list";
+"strategiesListCtorEditNavTitle" = "Edit strategies list";
+"strategiesListCtorName" = "List name";
+"strategiesListCtorItems" = "Strategies";
+"strategiesListCtorItemsHint" = "Each strategy at new line";
+"strategiesListCtorEmptyName" = "Empty list name";
+"strategiesListCtorNoStrategies" = "No strategies provided. Enter at least one";
+"strategiesListCtorListExists" = "Strategies list with the same name already exists";
+
+"generalSettings" = "Settings";
+"generalCancel" = "Cancel";
+"generalDone" = "Done";
+"generalCreate" = "Create";
+"generalEdit" = "Edit";
+"generalDelete" = "Delete";
+"generalClose" = "Close";
+"generalDeleteSheetTitle" = "Are You sure? This action can't be undone";
+"generalApply" = "Apply";
+"generalCopy" = "Copy";

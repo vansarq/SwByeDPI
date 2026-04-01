@@ -1,0 +1,132 @@
+"homeVpnStateOff" = "ByeDPI - Выключено";
+"homeVpnStateOn" = "ByeDPI - Включено";
+"homeSettingsAccessHint" = "Отключите ByeDPI для перехода в настройки";
+
+"settingsGeneralSection" = "Общее";
+"settingsGeneralLanguageOption" = "Язык";
+"settingsGeneralLanguageSystem" = "Системный";
+"settingsGeneralThemeOption" = "Тема";
+"settingsGeneralThemeSystem" = "Системная";
+"settingsGeneralThemeLight" = "Светлая";
+"settingsGeneralThemeDark" = "Темная";
+"settingsGeneralDNSOption" = "DNS (IP/DoT/DoH)";
+"settingsGeneralDNSResolvedOption" = "Resolved DNS сервера (Для DoT/DoH) - через пробел или запятую";
+"settingsGeneralImportSettingsOption" = "Импортировать настройки";
+"settingsGeneralImportSettingsOptionDesc" = "Загрузить файл настроек в приложение (Android BBD формат)";
+"settingsGeneralImportSettingsSuccess" = "Настройки были импортированы!";
+"settingsGeneralImportSettingsFail" = "Ошибка импорта настроек";
+"settingsGeneralExportSettingsOption" = "Экспортировать настройки";
+"settingsGeneralExportSettingsOptionDesc" = "Экспорт настроек в виде файла (Android BBD формат)";
+
+"settingsByeDPISection" = "ByeDPI";
+"settingsByeDPIArgsOption" = "Аргументы командной строки ByeDPI";
+"settingsByeDPIArgsOptionDesc" = "Редактор командной строки ByeDPI";
+"settingsByeDPIArgsFieldTitle" = "Аргументы командной строки ByeDPI";
+"settingsByeDPIArgsFieldNoValuePlaceholder" = "Стратегия не указана";
+"settingsByeDPIStrategyTestOption" = "Проверка стратегий";
+"settingsByeDPIStrategyTestOptionDesc" = "Тестирование работы стратегий ByeDPI";
+"settingsByeDPITestAnalyzerOption" = "Подбор стратегии";
+"settingsByeDPITestAnalyzerOptionDesc" = "Синтез оптимальной стратегий ByeDPI на основе результатов тестирования";
+"settingsDomainsListOption" = "Списки доменов";
+"settingsDomainsListOptionDesc" = "Создавайте, изменяйте или удаляйте домены для тестирования стратегий и их фильтрации при работе byeDPI";
+"settingsStrategiesListOption" = "Списки стратегий";
+"settingsStrategiesListOptionDesc" = "Создавайте, изменяйте или удаляйте стратегии для тестирования и использования в byeDPI";
+
+"settingsByeDPIStrategyTestDelay" = "Ождидание между проверками (сек)";
+"settingsByeDPIStrategyTestDelayDesc" = "Увеличение значения ожидания улучшуает достоверность результатов проверки";
+"settingsByeDPIStrategyTestDomainRequestsCount" = "Количество запросов к домену";
+"settingsByeDPIStrategyTestDomainRequestsCountDesc" = "Большее количество запросов улучшает точность, но увеличивает время проверки";
+"settingsByeDPIStrategyTestThreadsCount" = "Количество потоков (Максимум параллельных запросов)";
+"settingsByeDPIStrategyTestThreadsCountDesc" = "Большее количество потоков ускоряет проверку, но ухудшает достоверность результатов";
+"settingsByeDPIStrategyTestResponseWaitTimeout" = "Время ожидания ответа от домена (сек)";
+"settingsByeDPIStrategyTestResponseWaitTimeoutDesc" = "Большее количество времени замедляет проверку, но улучшает достоверность результатов";
+"settingsByeDPIStrategyTestDomainsStrategiesSection" = "Проверяемые домены и стратегии";
+
+"settingsItemsCountPrefix" = "Количество элементов";
+
+"settingsDomainsCountPrefix" = "Количество доменов";
+
+"settingsStrategiesCountPrefix" = "Количество стратегий";
+
+"settingsByeDPIStrategyTestDomainsOptionDesc" = "Выберите домены для тестирования";
+"settingsByeDPIStrategyTestStrategiesOptionDesc" = "Выберите стратегии для тестирования";
+"settingsByeDPIStrategyTestDomainsName" = "Имя списка";
+"settingsByeDPIStrategyTestDomainsHint" = "Один домен в строке";
+"settingsByeDPIStrategyTestDomainsName" = "Имя стратегии";
+"settingsByeDPIStrategyTestDomainsHint" = "Одна стратегия на линию";
+
+"settingsByeDPIProxySection" = "ByeDPI SOCKS-прокси";
+"settingsByeDPIProxyIpAddr" = "Прослушиваемый IP адрес";
+"settingsByeDPIProxyPort" = "Порт";
+"settingsByeDPIProxyBufSizeShort" = "Размер буфера (байты)";
+"settingsByeDPIProxyBufSize" = "Размер буфера (байты). Максимальный размер данных, получаемых и отправляемых за один вызов recv/send";
+
+"settingsAboutSecton" = "О приложении";
+"settingsAboutSourceCode" = "Исходный код";
+"settingsAboutAppVersionCode" = "Версия приложения";
+"settingsAboutByeDPIVersion" = "Версия ByeDPI";
+
+"byeDPICmdEditorTitle" = "Редактор командной строки";
+"byeDPICmdEditorHistory" = "История стратегий";
+"byeDPICmdEditorHistorySelectedItem" = "Выбрана";
+
+"byeDPITestNavTitle" = "Проверка стратегий";
+"byeDPITestStart" = "Начать проверку";
+"byeDPITestStop" = "Остановить";
+"byeDPITestStateNotStarted" = "Проверка завершена";
+"byeDPITestStateInProgress" = "Проверка";
+"byeDPITestDomainsDetailsShow" = "Показать детали";
+"byeDPITestDomainsDetailsHide" = "Скрыть детали";
+
+"byeDPITestSettingsNavTitle" = "Настройки проверки";
+
+"byeDPITestAnalyzerNavTitle" = "Подбор стратегии";
+"byeDPITestAnalyzerHint" = "Подсказка: для более лучшего подбора стратегии выберите как можно больше списков доменов, к которым необходимо получить доступ, а также больше стратегий";
+"byeDPITestAnalyzerFormatHint" = "Анализатор построит стратегию (команду запуска ByeDPI), учитывая следующие аспекты";
+"byeDPITestAnalyzerFormatInfo1" = "ByeDPI-bypass блок - 'Черный список' доменов 2-го уровня, к которым не будет применяться ByeDPI";
+"byeDPITestAnalyzerFormatInfo2" = "Domain-specific блок стратегий - 'Белые списки' доменов 2-го уровня, к каждому из которых подобрана своя наиболее оптимальная стратегия";
+"byeDPITestAnalyzerFormatInfo3" = "Блок 'универсальной' стратегии ByeDPI - самая лучшая (по итогам тестов) стратегия. Будет применяться для всех остальных доменов";
+"byeDPITestAnalyzerFormatInfo4" = "При подборе стратегии каждый блок является опциональным: можно задать только универсальную стратегию, можно - только черные и белые списки итд";
+"byeDPITestAnalyzerUseDnsBypassSwitch" = "Использовать ByeDPI DNS bypass (53 порт)";
+"byeDPITestAnalyzerUseDomainBypassSwitch" = "Использовать ByeDPI domain bypass";
+"byeDPITestAnalyzerBypassPick" = "Выбрать домены";
+"byeDPITestAnalyzerUseDomainSpecificSwitch" = "Использовать Domain-specific блок стратегий";
+"byeDPITestAnalyzerUseUniversalSwitch" = "Использовать универсальную стратегию";
+"byeDPITestAnalyzerRetrieve" = "Подобрать стратегию";
+"byeDPITestAnalyzerRetrievedStrategy" = "Результат подбора";
+"byeDPITestAnalyzerApply" = "Применить";
+"byeDPITestAnalyzerCopy" = "Скопировать";
+"byeDPITestAnalyzerNoTestResults" = "Нет данных о результатах проверки стратегий. Сначала выполните тестирование";
+
+"domainsListNavTitle" = "Списки доменов";
+"domainsListCreate" = "Создать список";
+"domainsListCtorCreateNavTitle" = "Создать список доменов";
+"domainsListCtorEditNavTitle" = "Изменить список доменов";
+"domainsListCtorName" = "Имя списка";
+"domainsListCtorItems" = "Домены";
+"domainsListCtorItemsHint" = "Каждый домен на новой строке";
+"domainsListCtorEmptyName" = "Не указано имя списка";
+"domainsListCtorNoDomains" = "Не указаны домены. Введите хотя бы один";
+"domainsListCtorListExists" = "Список доменов с таким же именем уже существует";
+
+"strategiesListNavTitle" = "Списки стратегий";
+"strategiesListCreate" = "Создать список";
+"strategiesListCtorCreateNavTitle" = "Создать список стратегий";
+"strategiesListCtorEditNavTitle" = "Изменить список стратегий";
+"strategiesListCtorName" = "Имя списка";
+"strategiesListCtorItems" = "Стратегии";
+"strategiesListCtorItemsHint" = "Каждая стратегия на новой строке";
+"strategiesListCtorEmptyName" = "Не указано имя списка";
+"strategiesListCtorNoStrategies" = "Не указаны стратегии. Введите хотя бы одну";
+"strategiesListCtorListExists" = "Список стратегий с таким именем уже существует";
+
+"generalSettings" = "Настройки";
+"generalCancel" = "Отмена";
+"generalDone" = "Готово";
+"generalCreate" = "Создать";
+"generalEdit" = "Изменить";
+"generalDelete" = "Удалить";
+"generalClose" = "Закрыть";
+"generalDeleteSheetTitle" = "Вы уверены? Данное действие нельзя отменить";
+"generalApply" = "Применить";
+"generalCopy" = "Скопировать";
